@@ -9,7 +9,7 @@
         "email": "",
         "password":"",
         "adress": "",
-        "phone_number":""
+        "phone_number":"" 
       } 
     ]
   },
