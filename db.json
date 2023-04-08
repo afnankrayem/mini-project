@@ -1,5 +1,94 @@
-{
-  "posts":[
-    {id:1, "title": "json-server", "author": "typicode"}
-  ]
-}
+[
+  {
+    "accounts": 
+    [
+      {
+        "id": "",
+        "role":"",
+        "name": "",
+        "email": "",
+        "password":"",
+        "adress": "",
+        "phone_number":""
+      } 
+    ]
+  },
+  {
+    "products": 
+    [
+      {
+        "id": "",
+        "name": "",
+        "price":"",
+        "available_quantity":""
+      } 
+    ]
+  },
+  {
+    "pharmacy": 
+    [
+      {
+        "id": "",
+        "name": "",
+        "adress":"",
+        "phone_number":"",
+        "email":""
+      } 
+    ]
+  },
+  {
+    "order": 
+    [
+      {
+      "id":"",
+      "client_name":"",
+      "client_adress":"",
+      "quantity_oreder":"",
+      "total_price":"",
+      "payment_method":"",
+      "order_date":"",
+      "price_U.H.T":"",
+      "total_HTVA":"",
+      "TVA":""
+      }
+    ] 
+  },
+  {
+    "order_status": 
+    [
+      {
+        "order_id": "",
+        "order_price": "",
+        "order_details":"",
+        "status":""
+      } 
+    ]
+  },
+  {
+    "invoce": 
+    [
+      {
+       "id":"",
+       "date":"",
+       "adress":"",
+       "total":"",
+       "TVA":"",
+       "price_U.H.T":"",
+       "total_HTVA":"",
+       "discount":""
+      }
+    ] 
+  },
+  {
+    "payment": 
+    [
+      {
+       "id":"",
+       "paid":"",
+       "total":"",
+       "details":""
+      }
+    ] 
+  }
+  
+]
