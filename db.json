@@ -25,18 +25,6 @@
     ]
   },
   {
-    "pharmacy": 
-    [
-      {
-        "id": "",
-        "name": "",
-        "adress":"",
-        "phone_number":"",
-        "email":""
-      } 
-    ]
-  },
-  {
     "order": 
     [
       {
