@@ -1,80 +1,102 @@
-{ 
-    "accounts": 
-    [  
+{
+  "accounts": [
+    {
+      "id": "1",
+      "role": "admin",
+      "name": "admin-1",
+      "email": "admin-1@gmail.com",
+      "password": "123",
+      "adress": "tunis",
+      "phone_number": "223399665"
+    },
+    {
+      "role": "admin56",
+      "name": "admin-2",
+      "email": "admin-2@gmail.com",
+      "password": "azerty",
+      "adress": "tunis",
+      "phone_number": "223399665",
+      "id": "2"
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "name": "ASHK",
+      "price": "100TND",
+      "available_quantity": "3"
+    }
+  ],
+  "product_item": [
+    {
+      "id": "10",
+      "product_id": "10",
+      "product_image": "img.png",
+      "qty_in_stock": "100",
+      "price": "190TND"
+    }
+  ],
+
+  "order": [
+    {
+      "id": "22",
+      "client_name": "client-1",
+      "client_adress": "tunis22",
+      "quantity_order": "1",
+      "total_price": "29",
+      "payment_method": "cash",
+      "order_date": "02-06",
+      "price_U.H.T": "100",
+      "total_HTVA": "12",
+      "TVA": "12"
+    }
+  ],
+  "order_status": [
+    {
+      "order_id": "22",
+      "order_price": "23",
+      "order_details": "black",
+      "status": "on route"
+    }
+  ],
+  "order_line": [
       {
-        "id": "1",
-        "role":"admin",
-        "name": "admin-1",
-        "email": "admin-1@gmail.com",
-        "password":"123",
-        "adress": "tunis",
-        "phone_number":"223399665" 
-      } 
-    ]
-  ,
-  
-    "products": 
-    [
-      {
-        "id": "1",
-        "name": "ASHK",
-        "price":"100TND",
-        "available_quantity":"3"
-      } 
-    ]
-  ,
-  
-    "order": 
-    [
-      {
-      "id":"22",
-      "client_name":"client-1",
-      "client_adress":"tunis22",
-      "quantity_order":"1",
-      "total_price":"29",
-      "payment_method":"cash",
-      "order_date":"02-06",
-      "price_U.H.T":"100",
-      "total_HTVA":"12",
-      "TVA":"12"
-      }
-    ] 
-  ,
-  
-    "order_status": 
-    [
-      {
-        "order_id": "22",
-        "order_price": "23",
-        "order_details":"black",
-        "status":"on route"
-      } 
-    ]
-  ,
-  
-    "invoice": 
-    [
-      {
-       "id":"3",
-       "date":"05-03",
-       "adress":"jeddah",
-       "total":"100",
-       "TVA":"19",
-       "price_U.H.T":"22",
-       "total_HTVA":"10",
-       "discount":"10%"
-      }
-    ] 
-  ,
-  
-    "payment": 
-    [
-      {
-       "id":"2",
-       "paid":"100",
-       "total":"100",
-       "details":"paid"
-      }
-    ] 
-  
+        "id":"4",
+        "product_item_id":"33",
+        "order_id": "44",
+        "qty": "89",
+        "price":"100TND"
+       }
+  ],
+  "invoice": [
+    {
+      "id": "3",
+      "date": "05-03",
+      "adress": "jeddah",
+      "total": "100",
+      "TVA": "19",
+      "price_U.H.T": "22",
+      "total_HTVA": "10",
+      "discount": "10%"
+    }
+  ],
+  "payment": [
+    {
+      "id": "2",
+      "paid": "100",
+      "total": "100",
+      "details": "paid"
+    }
+  ],
+  "user_payment_method" : [
+    {
+      "id": "3",
+      "user_id": "33",
+      "payment_type_id": "333",
+      "provider":"aramex",
+      "account_number": "12",
+      "expiry_date": "05-06",
+      "is_default": "0"
+    }
+  ]
 }
