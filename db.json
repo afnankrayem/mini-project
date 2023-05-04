@@ -11,8 +11,8 @@
         "phone_number":"223399665" 
       } 
     ]
-  },
-  {
+  ,
+  
     "products": 
     [
       {
@@ -22,8 +22,8 @@
         "available_quantity":"3"
       } 
     ]
-  },
-  {
+  ,
+  
     "order": 
     [
       {
@@ -39,8 +39,8 @@
       "TVA":"12"
       }
     ] 
-  },
-  {
+  ,
+  
     "order_status": 
     [
       {
@@ -50,9 +50,9 @@
         "status":"on route"
       } 
     ]
-  },
-  {
-    "invoce": 
+  ,
+  
+    "invoice": 
     [
       {
        "id":"3",
@@ -65,8 +65,8 @@
        "discount":"10%"
       }
     ] 
-  },
-  {
+  ,
+  
     "payment": 
     [
       {
@@ -76,5 +76,5 @@
        "details":"paid"
       }
     ] 
-  }
   
+}
