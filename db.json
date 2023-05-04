@@ -1,82 +1,80 @@
-[
-  {
+{ 
     "accounts": 
-    [
+    [  
       {
-        "id": "",
-        "role":"",
-        "name": "",
-        "email": "",
-        "password":"",
-        "adress": "",
-        "phone_number":"" 
+        "id": "1",
+        "role":"admin",
+        "name": "admin-1",
+        "email": "admin-1@gmail.com",
+        "password":"123",
+        "adress": "tunis",
+        "phone_number":"223399665" 
       } 
     ]
-  },
-  {
+  ,
+  
     "products": 
     [
       {
-        "id": "",
-        "name": "",
-        "price":"",
-        "available_quantity":""
+        "id": "1",
+        "name": "ASHK",
+        "price":"100TND",
+        "available_quantity":"3"
       } 
     ]
-  },
-  {
+  ,
+  
     "order": 
     [
       {
-      "id":"",
-      "client_name":"",
-      "client_adress":"",
-      "quantity_oreder":"",
-      "total_price":"",
-      "payment_method":"",
-      "order_date":"",
-      "price_U.H.T":"",
-      "total_HTVA":"",
-      "TVA":""
+      "id":"22",
+      "client_name":"client-1",
+      "client_adress":"tunis22",
+      "quantity_order":"1",
+      "total_price":"29",
+      "payment_method":"cash",
+      "order_date":"02-06",
+      "price_U.H.T":"100",
+      "total_HTVA":"12",
+      "TVA":"12"
       }
     ] 
-  },
-  {
+  ,
+  
     "order_status": 
     [
       {
-        "order_id": "",
-        "order_price": "",
-        "order_details":"",
-        "status":""
+        "order_id": "22",
+        "order_price": "23",
+        "order_details":"black",
+        "status":"on route"
       } 
     ]
-  },
-  {
-    "invoce": 
+  ,
+  
+    "invoice": 
     [
       {
-       "id":"",
-       "date":"",
-       "adress":"",
-       "total":"",
-       "TVA":"",
-       "price_U.H.T":"",
-       "total_HTVA":"",
-       "discount":""
+       "id":"3",
+       "date":"05-03",
+       "adress":"jeddah",
+       "total":"100",
+       "TVA":"19",
+       "price_U.H.T":"22",
+       "total_HTVA":"10",
+       "discount":"10%"
       }
     ] 
-  },
-  {
+  ,
+  
     "payment": 
     [
       {
-       "id":"",
-       "paid":"",
-       "total":"",
-       "details":""
+       "id":"2",
+       "paid":"100",
+       "total":"100",
+       "details":"paid"
       }
     ] 
-  }
   
-]
+}
